@@ -18,9 +18,9 @@
 
 import random
 
-number_1 = input("Введите первое число: ")
-number_2 = input("Введите второе число: ")
+number_1 = int(input("Введите первое число: "))
+number_2 = int(input("Введите второе число: "))
 
 random_number = random.randint(number_1, number_2)
 
-print("Рандомное число = " + random_number)
+print("Рандомное число = " + str(random_number))
