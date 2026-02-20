@@ -23,4 +23,4 @@ number_2 = int(input("Введите второе число: "))
 
 random_number = random.randint(number_1, number_2)
 
-print("Рандомное число = " + str(random_number))
+print(f"Рандомное число =  {random_number}")
